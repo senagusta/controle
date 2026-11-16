@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+    .header{fill:#e5e7eb;stroke:#94a3b8}.btnp{fill:#2563eb;stroke:#1d4ed8}.btnt{font-size:12px;fill:#fff;font-weight:700}
+    .flasherr{fill:#fee2e2;stroke:#fca5a5}.flasht{font-size:11px;fill:#991b1b}
+    .flashinfo{fill:#dbeafe;stroke:#93c5fd}.flashit{font-size:11px;fill:#1e3a8a}
+    .input{fill:#fff;stroke:#9ca3af}.link{font-size:12px;fill:#2563eb}
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="40" class="title">03 - Login (login) — F1, público</text>
+  <text x="40" y="62" class="muted">Campos: E-mail, Senha, CSRF. Carregamento: [Aguarde...]. Sucesso: redirect painel. Erro: "E-mail ou senha inválidos." (genérico).</text>
+
+  <!-- Mobile -->
+  <text x="40" y="100" class="label">CELULAR (360px)</text>
+  <rect x="40" y="115" width="320" height="520" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/>
+  <text x="75" y="165" class="sub" font-weight="700">TechPath</text><text x="315" y="165" class="sub">≡</text>
+  <rect x="60" y="190" width="280" height="24" rx="4" class="flashinfo"/><text x="70" y="206" class="flashit">[flash info] Entre para continuar.</text>
+  <rect x="60" y="220" width="280" height="24" rx="4" class="flasherr"/><text x="70" y="236" class="flasht">[flash erro] E-mail ou senha inválidos.</text>
+  <text x="75" y="275" class="label">Entrar</text>
+  <text x="75" y="305" class="small">E-mail</text><rect x="75" y="312" width="250" height="30" rx="4" class="input"/>
+  <text x="75" y="365" class="small">Senha</text><rect x="75" y="372" width="250" height="30" rx="4" class="input"/>
+  <text x="75" y="420" class="muted">(CSRF oculto)</text>
+  <rect x="75" y="435" width="250" height="36" rx="6" class="btnp"/><text x="175" y="458" class="btnt">Entrar</text>
+  <text x="75" y="495" class="small">Não tem conta? <tspan class="link">Criar conta</tspan></text>
+
+  <!-- Desktop -->
+  <text x="420" y="100" class="label">DESKTOP</text>
+  <rect x="420" y="115" width="740" height="520" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="sub">Header</text>
+  <rect x="620" y="220" width="340" height="320" rx="10" class="panel"/>
+  <text x="760" y="255" class="label">Entrar</text>
+  <rect x="650" y="265" width="280" height="22" rx="4" class="flashinfo"/><text x="660" y="280" class="flashit">[flash info/erro]</text>
+  <text x="650" y="315" class="small">E-mail</text><rect x="650" y="322" width="280" height="28" rx="4" class="input"/>
+  <text x="650" y="375" class="small">Senha</text><rect x="650" y="382" width="280" height="28" rx="4" class="input"/>
+  <rect x="650" y="430" width="120" height="34" rx="6" class="btnp"/><text x="690" y="452" class="btnt">Entrar</text>
+  <text x="650" y="490" class="small">Não tem conta? <tspan class="link">Criar conta</tspan></text>
+  <text x="650" y="520" class="muted">Sucesso: sessão + redirect painel</text>
+</svg>

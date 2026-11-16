@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151;font-weight:700}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.header{fill:#e5e7eb;stroke:#94a3b8}
+    .card{fill:#fff;stroke:#cbd5e1}.btnp{fill:#2563eb;stroke:#1d4ed8}.btnt{font-size:11px;fill:#fff;font-weight:700}
+    .btns{fill:#fff;stroke:#2563eb}.btnts{font-size:11px;fill:#2563eb;font-weight:700}
+    .barbg{fill:#e5e7eb}.bar{fill:#2563eb}.barok{fill:#16a34a}
+    .flashok{fill:#dcfce7;stroke:#86efac}.flashokt{font-size:11px;fill:#166534}
+  </style>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <text x="40" y="40" class="title">09 - Meu painel (painel) — F5, protegido</text>
+  <text x="40" y="62" class="muted">Conteúdo: trilhas iniciadas, contagens, %, barra, próxima atividade (RN09-RN11). Vazio: sem trilhas + CTA. Sucesso: atualizado após conclusão (RN10).</text>
+
+  <text x="40" y="100" class="label">CELULAR (360px) — com trilhas / vazio</text>
+  <rect x="40" y="115" width="320" height="720" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/><text x="75" y="165" class="small" font-weight="700">TechPath</text><text x="315" y="165" class="small">≡</text>
+  <rect x="60" y="188" width="280" height="22" rx="4" class="flashok"/><text x="70" y="203" class="flashokt">[flash sucesso] Progresso atualizado</text>
+  <text x="75" y="235" class="label">Meu painel</text>
+  <rect x="70" y="245" width="260" height="150" rx="8" class="card"/>
+  <text x="85" y="270" class="sub">Desenvolvimento Web</text>
+  <text x="85" y="288" class="small">Iniciante</text>
+  <text x="85" y="306" class="small">2 concluídas • 4 pendentes</text>
+  <rect x="85" y="314" width="230" height="10" rx="5" class="barbg"/><rect x="85" y="314" width="76" height="10" rx="5" class="bar"/>
+  <text x="85" y="340" class="small">33% concluído</text>
+  <text x="85" y="356" class="small" font-weight="700">Próxima: 3. HTML</text>
+  <rect x="85" y="363" width="120" height="24" rx="4" class="btns"/><text x="100" y="379" class="btnts">Ver atividades</text>
+  <rect x="70" y="405" width="260" height="130" rx="8" class="card"/>
+  <text x="85" y="430" class="sub">Lógica de Programação</text>
+  <text x="85" y="448" class="small">6 concluídas • 0 pendentes</text>
+  <rect x="85" y="456" width="230" height="10" rx="5" class="barbg"/><rect x="85" y="456" width="230" height="10" rx="5" class="barok"/>
+  <text x="85" y="482" class="small">100% • Trilha concluída!</text>
+  <rect x="85" y="492" width="120" height="24" rx="4" class="btns"/><text x="100" y="508" class="btnts">Ver atividades</text>
+  <rect x="75" y="545" width="150" height="30" rx="6" class="btns"/><text x="92" y="565" class="btnts">Explorar trilhas</text>
+  <text x="75" y="600" class="label">Estado: lista vazia</text>
+  <rect x="70" y="610" width="260" height="90" rx="8" class="card"/>
+  <text x="85" y="640" class="small">Você ainda não iniciou nenhuma</text>
+  <text x="85" y="657" class="small">trilha.</text>
+  <rect x="85" y="665" width="150" height="26" rx="4" class="btnp"/><text x="102" y="682" class="btnt">Explorar trilhas</text>
+
+  <text x="420" y="100" class="label">DESKTOP</text>
+  <rect x="420" y="115" width="740" height="720" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="small">Header (logado)</text>
+  <text x="455" y="210" class="label">Meu painel</text>
+  <rect x="455" y="230" width="330" height="190" rx="8" class="card"/>
+  <text x="470" y="258" class="sub">Desenvolvimento Web</text>
+  <text x="470" y="280" class="small">2/6 concluídas (33%)</text>
+  <rect x="470" y="290" width="290" height="12" rx="6" class="barbg"/><rect x="470" y="290" width="96" height="12" rx="6" class="bar"/>
+  <text x="470" y="325" class="small" font-weight="700">Próxima: 3. HTML</text>
+  <rect x="470" y="340" width="120" height="28" rx="4" class="btns"/><text x="485" y="359" class="btnts">Ver atividades</text>
+  <rect x="810" y="230" width="330" height="190" rx="8" class="card"/>
+  <text x="825" y="258" class="sub">Lógica de Programação</text>
+  <text x="825" y="280" class="small">6/6 concluídas (100%)</text>
+  <rect x="825" y="290" width="290" height="12" rx="6" class="barbg"/><rect x="825" y="290" width="290" height="12" rx="6" class="barok"/>
+  <text x="825" y="325" class="small" font-weight="700">Trilha concluída!</text>
+  <rect x="825" y="340" width="120" height="28" rx="4" class="btns"/><text x="840" y="359" class="btnts">Ver atividades</text>
+  <rect x="455" y="440" width="150" height="32" rx="6" class="btns"/><text x="472" y="461" class="btnts">Explorar trilhas</text>
+  <text x="455" y="500" class="muted">Lista vazia: "Você ainda não iniciou nenhuma trilha." + CTA Explorar trilhas</text>
+  <text x="455" y="520" class="muted">Erro: sem login → redirect; falha → [flash erro] Não foi possível carregar seu painel.</text>
+</svg>

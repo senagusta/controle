@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+    .header{fill:#e5e7eb;stroke:#94a3b8}.btnp{fill:#2563eb;stroke:#1d4ed8}.btnt{font-size:12px;fill:#fff;font-weight:700}
+    .flasherr{fill:#fee2e2;stroke:#fca5a5}.flasht{font-size:11px;fill:#991b1b}
+    .input{fill:#fff;stroke:#9ca3af}.err{font-size:11px;fill:#b91c1c}.link{font-size:12px;fill:#2563eb}
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="40" class="title">02 - Cadastro (cadastro) — F1, público</text>
+  <text x="40" y="62" class="muted">Campos: Nome, E-mail, Senha, Confirmar senha, CSRF. Carregamento: [Aguarde...]. Sucesso: redirect login + flash. Erro: validação; preserva nome/e-mail; limpa senhas.</text>
+
+  <!-- Mobile -->
+  <text x="40" y="100" class="label">CELULAR (360px)</text>
+  <rect x="40" y="115" width="320" height="620" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/>
+  <text x="75" y="165" class="sub" font-weight="700">TechPath</text><text x="315" y="165" class="sub">≡</text>
+  <rect x="60" y="190" width="280" height="26" rx="4" class="flasherr"/><text x="70" y="208" class="flasht">[flash erro] Corrija os campos.</text>
+  <text x="75" y="240" class="label">Criar conta</text>
+  <text x="75" y="265" class="small">Nome</text><rect x="75" y="272" width="250" height="28" rx="4" class="input"/>
+  <text x="75" y="320" class="small">E-mail</text><rect x="75" y="327" width="250" height="28" rx="4" class="input"/>
+  <text x="75" y="370" class="err">! Digite um e-mail válido.</text>
+  <text x="75" y="395" class="small">Senha</text><rect x="75" y="402" width="250" height="28" rx="4" class="input"/>
+  <text x="75" y="450" class="small">Confirmar senha</text><rect x="75" y="457" width="250" height="28" rx="4" class="input"/>
+  <text x="75" y="505" class="muted">(CSRF oculto)</text>
+  <rect x="75" y="520" width="250" height="36" rx="6" class="btnp"/><text x="155" y="543" class="btnt">Criar conta</text>
+  <text x="75" y="575" class="small">Já tem conta? <tspan class="link">Entrar</tspan></text>
+  <text x="75" y="610" class="muted">Erros: "Informe seu nome.", "As senhas não</text>
+  <text x="75" y="626" class="muted">coincidem.", "Senha mínimo X caracteres."</text>
+  <text x="75" y="650" class="muted">Carregamento: [ Aguarde... ] (disabled)</text>
+
+  <!-- Desktop -->
+  <text x="420" y="100" class="label">DESKTOP</text>
+  <rect x="420" y="115" width="740" height="620" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="sub">Header</text>
+  <rect x="600" y="210" width="380" height="470" rx="10" class="panel"/>
+  <text x="740" y="245" class="label">Criar conta</text>
+  <rect x="640" y="255" width="300" height="22" rx="4" class="flasherr"/><text x="650" y="270" class="flasht">[flash erro/resumo]</text>
+  <text x="640" y="300" class="small">Nome</text><rect x="740" y="282" width="200" height="26" rx="4" class="input"/>
+  <text x="640" y="340" class="small">E-mail</text><rect x="740" y="322" width="200" height="26" rx="4" class="input"/>
+  <text x="640" y="380" class="small">Senha</text><rect x="740" y="362" width="200" height="26" rx="4" class="input"/>
+  <text x="640" y="420" class="small">Confirmar</text><rect x="740" y="402" width="200" height="26" rx="4" class="input"/>
+  <rect x="640" y="455" width="150" height="34" rx="6" class="btnp"/><text x="672" y="477" class="btnt">Criar conta</text>
+  <text x="640" y="515" class="small">Já tem conta? <tspan class="link">Entrar</tspan></text>
+  <text x="640" y="545" class="muted">Sucesso: redirect login +</text>
+  <text x="640" y="562" class="muted">[flash sucesso] Conta criada com sucesso.</text>
+  <text x="640" y="590" class="muted">Preserva nome/e-mail; limpa senhas.</text>
+</svg>

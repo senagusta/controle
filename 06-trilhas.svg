@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151;font-weight:700}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.header{fill:#e5e7eb;stroke:#94a3b8}
+    .card{fill:#fff;stroke:#cbd5e1}.btns{fill:#fff;stroke:#2563eb}.btnts{font-size:11px;fill:#2563eb;font-weight:700}
+    .badge{fill:#dbeafe;stroke:#93c5fd}.badget{font-size:10px;fill:#1e40af;font-weight:700}
+    .badge2{fill:#dcfce7;stroke:#86efac}.badge2t{font-size:10px;fill:#166534;font-weight:700}
+    .flashinfo{fill:#dbeafe;stroke:#93c5fd}.flashit{font-size:11px;fill:#1e3a8a}
+  </style>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <text x="40" y="40" class="title">06 - Catálogo de trilhas (trilhas) — F3, protegido</text>
+  <text x="40" y="62" class="muted">Sucesso: nome, descrição curta, nível e selo "Iniciada". Lista vazia: "Nenhuma trilha disponível..." Erro: sem login redirect + [flash info].</text>
+
+  <text x="40" y="100" class="label">CELULAR (360px) — com dados</text>
+  <rect x="40" y="115" width="320" height="620" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/><text x="75" y="165" class="small" font-weight="700">TechPath (logado)</text><text x="315" y="165" class="small">≡</text>
+  <text x="75" y="210" class="label">Trilhas de aprendizagem</text>
+  <rect x="70" y="225" width="260" height="120" rx="8" class="card"/>
+  <text x="85" y="250" class="sub">Desenvolvimento Web</text>
+  <rect x="85" y="258" width="70" height="18" rx="9" class="badge"/><text x="95" y="271" class="badget">Iniciante</text>
+  <rect x="160" y="258" width="60" height="18" rx="9" class="badge2"/><text x="170" y="271" class="badge2t">Iniciada</text>
+  <text x="85" y="295" class="small">Aprenda os primeiros passos...</text>
+  <rect x="85" y="307" width="100" height="26" rx="4" class="btns"/><text x="98" y="324" class="btnts">Ver detalhes</text>
+  <rect x="70" y="355" width="260" height="110" rx="8" class="card"/>
+  <text x="85" y="380" class="sub">Lógica de Programação</text>
+  <rect x="85" y="388" width="70" height="18" rx="9" class="badge"/><text x="95" y="401" class="badget">Iniciante</text>
+  <text x="85" y="422" class="small">Entenda como pensar como...</text>
+  <rect x="85" y="432" width="100" height="26" rx="4" class="btns"/><text x="98" y="449" class="btnts">Ver detalhes</text>
+  <text x="75" y="495" class="label">Lista vazia</text>
+  <text x="75" y="515" class="small">Nenhuma trilha disponível no momento.</text>
+  <text x="75" y="545" class="label">Erro (sem login)</text>
+  <rect x="70" y="555" width="260" height="24" rx="4" class="flashinfo"/><text x="80" y="571" class="flashit">[flash info] Entre para continuar.</text>
+
+  <text x="420" y="100" class="label">DESKTOP — com dados</text>
+  <rect x="420" y="115" width="740" height="620" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="small">Header (logado)</text>
+  <text x="455" y="210" class="label">Trilhas de aprendizagem</text>
+  <rect x="455" y="230" width="320" height="150" rx="8" class="card"/>
+  <text x="470" y="258" class="sub">Desenvolvimento Web</text>
+  <rect x="470" y="265" width="70" height="18" rx="9" class="badge"/><text x="480" y="278" class="badget">Iniciante</text>
+  <rect x="545" y="265" width="60" height="18" rx="9" class="badge2"/><text x="555" y="278" class="badge2t">Iniciada</text>
+  <text x="470" y="305" class="small">Descrição curta...</text>
+  <rect x="470" y="335" width="100" height="26" rx="4" class="btns"/><text x="483" y="352" class="btnts">Ver detalhes</text>
+  <rect x="800" y="230" width="320" height="150" rx="8" class="card"/>
+  <text x="815" y="258" class="sub">Lógica de Programação</text>
+  <rect x="815" y="265" width="70" height="18" rx="9" class="badge"/><text x="825" y="278" class="badget">Iniciante</text>
+  <text x="815" y="305" class="small">Descrição curta...</text>
+  <rect x="815" y="335" width="100" height="26" rx="4" class="btns"/><text x="828" y="352" class="btnts">Ver detalhes</text>
+</svg>

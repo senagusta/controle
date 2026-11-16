@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151;font-weight:700}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.header{fill:#e5e7eb;stroke:#94a3b8}
+    .card{fill:#fff;stroke:#cbd5e1}.btns{fill:#fff;stroke:#2563eb}.btnts{font-size:11px;fill:#2563eb;font-weight:700}
+    .flasherr{fill:#fee2e2;stroke:#fca5a5}.flasht{font-size:11px;fill:#991b1b}
+  </style>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="40" class="title">04 - Catálogo de áreas (areas) — F2, público</text>
+  <text x="40" y="62" class="muted">Sucesso: lista nome/descrição curta. Lista vazia: "Nenhuma área disponível no momento." Erro: flash "Não foi possível carregar as áreas..."</text>
+
+  <!-- Mobile -->
+  <text x="40" y="100" class="label">CELULAR (360px) — com dados</text>
+  <rect x="40" y="115" width="320" height="640" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/><text x="75" y="165" class="small" font-weight="700">TechPath</text><text x="315" y="165" class="small">≡</text>
+  <text x="75" y="210" class="label">Áreas da tecnologia</text>
+  <text x="75" y="230" class="small">Explore e conheça cada área.</text>
+  <rect x="70" y="245" width="260" height="95" rx="8" class="card"/>
+  <text x="85" y="270" class="sub">Desenvolvimento de software</text>
+  <text x="85" y="290" class="small">Crie programas e apps...</text>
+  <rect x="85" y="302" width="100" height="26" rx="4" class="btns"/><text x="98" y="319" class="btnts">Ver detalhes</text>
+  <rect x="70" y="350" width="260" height="95" rx="8" class="card"/>
+  <text x="85" y="375" class="sub">Inteligência artificial</text>
+  <text x="85" y="395" class="small">Ensine computadores...</text>
+  <rect x="85" y="407" width="100" height="26" rx="4" class="btns"/><text x="98" y="424" class="btnts">Ver detalhes</text>
+  <text x="75" y="480" class="label">Estado: lista vazia</text>
+  <text x="75" y="500" class="small">Nenhuma área disponível no momento.</text>
+  <text x="75" y="535" class="label">Estado: erro</text>
+  <rect x="70" y="545" width="260" height="34" rx="4" class="flasherr"/>
+  <text x="78" y="560" class="flasht">[flash erro] Não foi possível carregar</text>
+  <text x="78" y="574" class="flasht">as áreas. Tente novamente mais tarde.</text>
+
+  <!-- Desktop -->
+  <text x="420" y="100" class="label">DESKTOP — com dados</text>
+  <rect x="420" y="115" width="740" height="640" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="small">Header</text>
+  <text x="455" y="210" class="label">Áreas da tecnologia</text>
+  <rect x="455" y="230" width="210" height="140" rx="8" class="card"/>
+  <text x="470" y="258" class="sub">Desenvolvimento de software</text>
+  <text x="470" y="280" class="small">Crie programas...</text>
+  <rect x="470" y="325" width="100" height="26" rx="4" class="btns"/><text x="483" y="342" class="btnts">Ver detalhes</text>
+  <rect x="685" y="230" width="210" height="140" rx="8" class="card"/>
+  <text x="700" y="258" class="sub">Inteligência artificial</text>
+  <text x="700" y="280" class="small">Ensine computadores...</text>
+  <rect x="700" y="325" width="100" height="26" rx="4" class="btns"/><text x="713" y="342" class="btnts">Ver detalhes</text>
+  <rect x="915" y="230" width="210" height="140" rx="8" class="card"/>
+  <text x="930" y="258" class="sub">Cibersegurança</text>
+  <text x="930" y="280" class="small">Proteja sistemas...</text>
+  <rect x="930" y="325" width="100" height="26" rx="4" class="btns"/><text x="943" y="342" class="btnts">Ver detalhes</text>
+  <text x="455" y="430" class="label">Estado: lista vazia</text>
+  <rect x="455" y="445" width="670" height="60" rx="6" class="card"/>
+  <text x="680" y="480" class="small">Nenhuma área disponível no momento.</text>
+  <text x="455" y="545" class="label">Estado: erro</text>
+  <rect x="455" y="560" width="670" height="30" rx="4" class="flasherr"/>
+  <text x="470" y="580" class="flasht">[flash erro] Não foi possível carregar as áreas. Tente novamente mais tarde.</text>
+</svg>

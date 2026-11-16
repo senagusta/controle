@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.header{fill:#e5e7eb;stroke:#94a3b8}
+    .btnp{fill:#2563eb;stroke:#1d4ed8}.btnt{font-size:12px;fill:#fff;font-weight:700}
+    .btns{fill:#fff;stroke:#2563eb}.btnts{font-size:12px;fill:#2563eb;font-weight:700}
+    .link{font-size:12px;fill:#2563eb}.badge{fill:#dbeafe;stroke:#93c5fd}.badget{font-size:10px;fill:#1e40af;font-weight:700}
+    .flashok{fill:#dcfce7;stroke:#86efac}.flashokt{font-size:11px;fill:#166534}
+    .flashinfo{fill:#dbeafe;stroke:#93c5fd}.flashit{font-size:11px;fill:#1e3a8a}
+  </style>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <text x="40" y="40" class="title">07 - Detalhe da trilha (trilha&amp;id=) — F3, protegido</text>
+  <text x="40" y="62" class="muted">Campos ação: id trilha + CSRF. Carregamento: "Aguarde...". Sucesso: flash + direciona atividades. Lista vazia: trilha sem atividades. Erro: 404 ou falha ao iniciar.</text>
+
+  <text x="40" y="100" class="label">CELULAR (360px)</text>
+  <rect x="40" y="115" width="320" height="680" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/><text x="75" y="165" class="small" font-weight="700">TechPath</text><text x="315" y="165" class="small">≡</text>
+  <text x="75" y="205" class="link">← Voltar para trilhas</text>
+  <text x="75" y="235" class="label">Desenvolvimento Web</text>
+  <text x="75" y="255" class="small">Nível: Iniciante</text>
+  <text x="75" y="275" class="small">Aprenda a criar suas primeiras</text>
+  <text x="75" y="292" class="small">páginas para a internet.</text>
+  <text x="75" y="320" class="sub" font-weight="700">Sequência de atividades</text>
+  <text x="75" y="340" class="small">1. Fundamentos da tecnologia</text>
+  <text x="75" y="357" class="small">2. Introdução à programação</text>
+  <text x="75" y="374" class="small">3. HTML</text>
+  <text x="75" y="391" class="small">4. CSS</text>
+  <text x="75" y="408" class="small">5. JavaScript</text>
+  <text x="75" y="425" class="small">6. Primeiro projeto web</text>
+  <text x="75" y="450" class="muted">(POST + CSRF)</text>
+  <rect x="75" y="460" width="250" height="34" rx="6" class="btnp"/><text x="145" y="482" class="btnt">Iniciar trilha</text>
+  <rect x="75" y="505" width="250" height="22" rx="4" class="flashok"/><text x="82" y="520" class="flashokt">[flash sucesso] Trilha iniciada com sucesso.</text>
+  <rect x="75" y="535" width="250" height="22" rx="4" class="flashinfo"/><text x="82" y="550" class="flashit">[flash info] Você já iniciou esta trilha.</text>
+  <rect x="75" y="565" width="170" height="30" rx="6" class="btns"/><text x="92" y="585" class="btnts">Continuar atividades</text>
+  <text x="75" y="615" class="muted">Carregando: [ Aguarde... ]</text>
+  <text x="75" y="635" class="muted">Vazia: "Esta trilha ainda não possui atividades."</text>
+  <text x="75" y="655" class="muted">Erro: 404 ou "Não foi possível iniciar a trilha."</text>
+
+  <text x="420" y="100" class="label">DESKTOP</text>
+  <rect x="420" y="115" width="740" height="680" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="small">Header (logado)</text>
+  <text x="455" y="210" class="link">← Voltar para trilhas</text>
+  <text x="455" y="245" class="label">Desenvolvimento Web</text>
+  <rect x="700" y="225" width="70" height="20" rx="10" class="badge"/><text x="712" y="239" class="badget">Iniciante</text>
+  <text x="455" y="270" class="small">Descrição da trilha...</text>
+  <text x="455" y="305" class="sub" font-weight="700">Sequência de atividades</text>
+  <text x="455" y="330" class="small">1. Fundamentos da tecnologia</text><text x="760" y="330" class="small">4. CSS</text>
+  <text x="455" y="350" class="small">2. Introdução à programação</text><text x="760" y="350" class="small">5. JavaScript</text>
+  <text x="455" y="370" class="small">3. HTML</text><text x="760" y="370" class="small">6. Primeiro projeto web</text>
+  <rect x="455" y="410" width="150" height="34" rx="6" class="btnp"/><text x="480" y="432" class="btnt">Iniciar trilha</text>
+  <text x="620" y="432" class="small">ou</text>
+  <rect x="650" y="410" width="170" height="34" rx="6" class="btns"/><text x="670" y="432" class="btnts">Continuar atividades</text>
+  <text x="455" y="480" class="muted">Estados: [Aguarde...] | sucesso/info flash | lista vazia de atividades | erro 404/falha</text>
+</svg>

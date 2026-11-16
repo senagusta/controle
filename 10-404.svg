@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:20px;font-weight:700;fill:#111}.label{font-size:16px;font-weight:700;fill:#1f2937}
+    .sub{font-size:13px;fill:#374151}.small{font-size:12px;fill:#374151}.muted{font-size:12px;fill:#6b7280}
+    .frame{fill:#f8fafc;stroke:#94a3b8;stroke-width:2}.header{fill:#e5e7eb;stroke:#94a3b8}
+    .btnp{fill:#2563eb;stroke:#1d4ed8}.btnt{font-size:12px;fill:#fff;font-weight:700}
+    .btns{fill:#fff;stroke:#2563eb}.btnts{font-size:12px;fill:#2563eb;font-weight:700}
+  </style>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <text x="40" y="40" class="title">10 - Erro 404 (página/recurso não encontrado) — público</text>
+  <text x="40" y="62" class="muted">Estado: mensagem amigável, sem detalhes técnicos, com caminhos de retorno. Carregamento/lista vazia/sucesso: N/A.</text>
+
+  <text x="40" y="100" class="label">CELULAR (360px)</text>
+  <rect x="40" y="115" width="320" height="420" rx="18" class="frame"/>
+  <rect x="60" y="140" width="280" height="40" class="header"/><text x="75" y="165" class="sub" font-weight="700">TechPath</text><text x="315" y="165" class="sub">≡</text>
+  <text x="110" y="260" class="label">Página não encontrada</text>
+  <text x="80" y="295" class="small">O conteúdo que você procura não</text>
+  <text x="80" y="312" class="small">existe ou foi removido.</text>
+  <rect x="80" y="345" width="240" height="34" rx="6" class="btnp"/><text x="115" y="367" class="btnt">Ir para a página inicial</text>
+  <rect x="80" y="390" width="240" height="34" rx="6" class="btns"/><text x="150" y="412" class="btnts">Explorar áreas</text>
+
+  <text x="420" y="100" class="label">DESKTOP</text>
+  <rect x="420" y="115" width="740" height="420" class="frame"/>
+  <rect x="440" y="135" width="700" height="45" class="header"/><text x="455" y="163" class="sub">Header</text>
+  <text x="700" y="270" class="label">Página não encontrada</text>
+  <text x="620" y="305" class="small">O conteúdo que você procura não existe ou foi removido.</text>
+  <rect x="620" y="345" width="190" height="36" rx="6" class="btnp"/><text x="642" y="368" class="btnt">Ir para a página inicial</text>
+  <rect x="825" y="345" width="150" height="36" rx="6" class="btns"/><text x="855" y="368" class="btnts">Explorar áreas</text>
+</svg>
